@@ -1,0 +1,306 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Poppins', sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a,a:hovar{
+	text-decoration: none;
+}
+/*global css start*/
+.container{
+	width: 1440px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+/*gloal css end*/
+
+.header{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eee;
+
+}
+.header.navbar{
+	width: 100%;
+	display: block;
+	text-align: right;
+}
+.navbar li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+.navbar li a{
+	display: block;
+	font-size: 14px;
+	font-weight: 400px;
+	text-transform: capitalize;
+	margin: 10px 0px 0px 10px ;
+	color:#0F2656 ;
+}
+.banner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 20px ;
+	text-align: center ;
+}
+.banner h1 {
+	font-size: 52px;
+	line-height: 1.4em;
+	color:#0F2656;
+	font-weight: 700;
+	margin: 0px 0px 10px;
+}
+.banner h1 span{
+	color: #008AFF ;
+}
+.banner p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color:#0F2656 ;
+	font-weight: 400;
+	margin: 0px 0px 20px;
+
+}
+.banner.banner-img{
+	width: 60%;
+
+}
+.successfull{
+	width: 100%;
+	float: left;
+	padding: 40px 0px 30px;
+}
+.left-box{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.left-box h1{
+	font-size: 52px;
+	line-height: 1.4em;
+	color:#F15666;
+	font-weight: 700;
+	margin: 0px 15px 5px 0px;
+
+}
+.left-box p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color:#0F2656 ;
+	font-weight: 400;
+	margin: 0px 15px 0px 0px;
+
+}
+.right-box{
+	width: 100%;
+	float: left;
+}
+.right-box h1{
+	font-size: 52px;
+	line-height: 1.2em;
+	color:#0F2656 ;
+	font-weight: 700;
+	margin: 0px 0px 5px 15px;
+}
+.features{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.inner-feature{
+	width: 76%;
+	padding: 50px 30px;
+	margin: 10px 0px 10px 13px ;
+}
+.inner-feature img{
+	width: 100%;
+	height: 180px;
+	margin: 0px 0px 10px;
+
+}
+.inner-feature h4{
+	font-size: 20px;
+	line-height: 1.2em;
+	color:#0F2656 ;
+	font-weight: 700;
+	margin: 0px 0px 10px;
+
+}
+.inner-feature p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color:#0F2656 ;
+	font-weight: 400;
+}
+.cl1{
+	background:#FDEBED ;
+
+}
+.cl2{
+	background:#EBF9F4 ;
+
+}
+.cl3{
+	background:#FFF7E8 ;
+
+}
+.footer{
+	width:100%;
+	float: left;
+	padding: 20px 0px;
+	background: #008AFF;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color:#f0f0f0 ;
+	font-weight: 400;
+	text-align:center;
+}
+.footer p a{
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+
+
+/* css media queries srart */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles Glaxy Fold (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-witdh:279px) and (max-width:319px){
+/*css start*/
+
+/*css end*/
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+/* CSS */
+  /*global css start*/
+	.container{
+		width: 90%;
+		margin: 0px auto;
+	}
+	.row{
+		width: 100%;
+		float: left;
+
+	}
+	.col-12{
+		width: 100%;
+		float: left;
+	}
+	.col-6{
+		width: 100%;
+		float: left;
+	}
+	.col-4{
+		width: 100%;
+		float: left;
+	}
+	/*gloal css end*/
+
+	.logo{
+	 width: 100%;
+     display: block;
+     text-align: center;
+	}
+
+/*css end*/
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+/* CSS */
+/*global css start*/
+	.container{
+		width: 90%;
+		margin: 0px auto;
+	}
+	.row{
+		width: 100%;
+		float: left;
+
+	}
+	.col-12{
+		width: 100%;
+		float: left;
+	}
+	.col-6{
+		width: 100%;
+		float: left;
+	}
+	.col-4{
+		width: 100%;
+		float: left;
+	}
+	/*gloal css end*/
+
+	.logo{
+	 width: 100%;
+     display: block;
+     text-align: center;
+	}
+
+/*css end*/
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+/* CSS */
+/*css end*/
+}
